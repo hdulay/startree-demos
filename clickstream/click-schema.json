@@ -1,0 +1,29 @@
+{
+    "schemaName": "click_kafka",
+    "dimensionFieldSpecs": [
+      {
+        "name": "id",
+        "dataType": "STRING"
+      },
+      {
+        "name": "url",
+        "dataType": "STRING"
+      },
+      {
+        "name": "lat",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name":"long",
+        "dataType":"DOUBLE"
+      }
+    ],
+    "dateTimeFieldSpecs": [
+      {
+        "name": "when",
+        "dataType": "LONG",
+        "format": "1:MILLISECONDS:EPOCH",
+        "granularity": "1:MILLISECONDS"
+      }
+    ]
+  }

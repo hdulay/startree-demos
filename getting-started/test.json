@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Statement1",
+      "Principal": {
+        "AWS": ["arn:aws:iam::871622712563:role/sc-hubert-saas-useast2023030214150135680000000b"] },
+      "Effect": "Allow",
+      "Action": [
+        "s3:List*",
+        "s3:GetObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::hubert-st",  "arn:aws:s3:::hubert-st/*"
+      ]
+    }
+  ]
+}
